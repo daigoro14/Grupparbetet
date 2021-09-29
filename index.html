@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Coffee Shop</title>
+</head>
+<body>
+    <section id="navBar">
+        <label for="coffeeType">Välj kaffesort</label>
+        <select id="coffeeType">
+            <option value="Brygg Kaffe">Brygg Kaffe</option>
+            <option value="Cappuccino">Cappuccino</option>
+            <option value="Latte">Latte</option>
+        </select>
+        <label for="numberOfCoffees">Antal</label>
+        <input id="numberOfCoffees"/>
+        <button id="submit" onclick="onBuyButtonClick()">Köp</button>  
+    </section>
+    <div>
+        <p id="totalSpent"></p>
+        <p id="coffeeStatus"></p>
+    </div>
+    <hr/>
+    <section id="yourTransactions">
+        <h1>Dina transktioner</h1>
+    </section>
+    <div id="transactionParagraphs">
+
+    </div>
+
+    
+
+    
+</body>
+<script src="grupparbete.js"></script>
+</html>
