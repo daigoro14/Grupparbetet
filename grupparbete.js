@@ -49,7 +49,7 @@ const onBuyButtonClick = () => {
 
         let purchaseObject = {
             type: coffeeType,
-            quantity: quantity,
+            quantity: Number(quantity),
             price: 0,
             totalPrice: 0,
         }
